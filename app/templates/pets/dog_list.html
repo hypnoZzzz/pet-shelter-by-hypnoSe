@@ -1,0 +1,22 @@
+{% extends 'base/base.html' %}
+{% block content %}
+<div class="animals_type">
+    <br>
+    <div class="container">
+        <div class="row">
+            {% for pet in view.get_dogs %}
+                <div class="col-sm-3">
+                    <a href="../pets/{{pet.pk}}">
+                        <img height="200" width="200"
+                            src="{{ pet.photo.url }}" alt="" class="fit">
+                    </a>
+                    <div class="pet-bio-text">
+                        {{pet.name}}
+                    </div>
+                </div>
+            {%endfor%}
+        </div>      
+    </div>
+    <br>    
+</div>
+{% endblock %}

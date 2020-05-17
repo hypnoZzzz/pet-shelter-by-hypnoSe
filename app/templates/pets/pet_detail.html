@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="main-content">
+    <div class="col-lg-4 detail-photo">
+        <a href="#">
+            <img height="400" width="400"
+                 src="{{ object.photo.url }}" alt="" class="fit">
+        </a>
+    </div>
+    <div class="pet-text-detail submenu">
+        <ul>
+            <li>кличка: {{object.name}},</li>
+            <li>возраст: {{object.age}},</li>
+            <li>порода: {{object.breed}}</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

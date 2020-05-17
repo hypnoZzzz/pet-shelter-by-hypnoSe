@@ -1,0 +1,108 @@
+.header {
+	background: #e3dcdc;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	width: 98vw;
+	border: 1px solid black;
+}
+
+.form-search {
+	margin-top: 15px;
+}
+
+.form-control {
+	width: 260px;
+}
+
+.menu {
+	margin-top: 25px;
+}
+
+.menu-pet {
+
+}
+
+label {
+	font-family: "Samba DecorC";
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
+
+}
+
+.menu-item {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+.menu-item .submenu {
+	display: flex;	
+	position: relative;
+	cursor: pointer;
+}
+
+.header-submenu {
+	opacity: 0;
+	height: 1px;
+}
+
+.submenu>ul>li {
+	list-style-type: none;
+	display: inline;
+	font-size: 14px;
+}
+
+.base-containt {
+	border: 1px solid black;
+	width: 98vw;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	background: #e3dcdc;
+}
+
+.footer {
+	background: #e3dcdc;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	width: 98vw;
+	border: 1px solid black;
+}
+
+
+.social-icons {
+	justify-content: center;
+}
+
+.social-icons-img {
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.detail-photo {
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+.pet-text-detail {
+	margin-left: 270px;
+}
+
+@font-face {
+  font-family: "Samba DecorC";
+  src: url(../fonts/samba-decorc.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

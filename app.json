@@ -1,0 +1,6 @@
+{
+  "name": "Personal library",
+  "description": "Pet shelter on Heroku",
+  "image": "heroku/python",
+  "keywords": ["python", "django" ]
+}

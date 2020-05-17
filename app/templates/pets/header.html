@@ -1,0 +1,39 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+<header class="header" id="home">
+
+	<div class="container">
+		<div class="row">			
+				<div class="container-fluid">
+					<div class="row">
+						<label for="drop" class="toggle col-sm-3">
+							Ищу <br>друга
+						</label>
+							<div class="menu menu-pet menu-item col-sm-2">
+								<a href="/" id="nav">Питомцы</a>
+								<div class="submenu header-submenu">
+									<ul>
+										<li><a href="/cats/">Кошки</a></li>
+										<li><a href="/parrots/">Попугаи</a></li>
+										<li><a href="/dogs/">Собаки</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="menu col-sm-2">
+								<a href="/about_us/">О нас</a>
+							</div>
+							<div class="menu col-sm-2">
+								<a href="#contacts">Контакты</a>
+							</div>
+							<form action="/" class="form-search col-sm-3">
+            					<input class="form-control search-form" name="q" type="search" placeholder="поиск по породе">
+            				</form>
+					</div>
+				</div>
+		</div>
+	</div>
+
+</header>
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
